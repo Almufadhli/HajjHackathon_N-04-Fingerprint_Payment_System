@@ -51,7 +51,7 @@ namespace training.Pages
             string credit = txt_new_credit.Text;
             string phone = txt_new_phone.Text;
 
-            
+            // test
         }
     }
 }
