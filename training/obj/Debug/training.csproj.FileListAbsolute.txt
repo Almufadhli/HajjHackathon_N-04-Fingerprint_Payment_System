@@ -1,0 +1,259 @@
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\ApplicationInsights.config
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\csc.exe
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\System.Collections.Immutable.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\vbc.exe
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\VBCSCompiler.exe
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\roslyn\VBCSCompiler.exe.config
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\training.dll.config
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\training.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\training.pdb
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Antlr3.Runtime.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\EntityFramework.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\EntityFramework.SqlServer.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.Web.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.WindowsServer.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.ApplicationInsights.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Google.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Web.Infrastructure.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Newtonsoft.Json.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Owin.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\System.Web.Optimization.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\System.Web.Providers.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\WebGrease.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.Web.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AI.WindowsServer.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.ApplicationInsights.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\System.Web.Optimization.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Antlr3.Runtime.pdb
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Newtonsoft.Json.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\EntityFramework.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\EntityFramework.SqlServer.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\System.Web.Providers.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Google.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\obj\Debug\training.csprojResolveAssemblyReference.cache
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\obj\Debug\training.dll
+c:\users\07778256\documents\visual studio 2015\Projects\training\training\obj\Debug\training.pdb
+C:\Users\Dreams\Desktop\training\training\bin\ApplicationInsights.config
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\csc.exe
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\vbc.exe
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\VBCSCompiler.exe
+C:\Users\Dreams\Desktop\training\training\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Dreams\Desktop\training\training\bin\training.dll.config
+C:\Users\Dreams\Desktop\training\training\bin\training.dll
+C:\Users\Dreams\Desktop\training\training\bin\training.pdb
+C:\Users\Dreams\Desktop\training\training\bin\Antlr3.Runtime.dll
+C:\Users\Dreams\Desktop\training\training\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Dreams\Desktop\training\training\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Dreams\Desktop\training\training\bin\EntityFramework.dll
+C:\Users\Dreams\Desktop\training\training\bin\EntityFramework.SqlServer.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.Web.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Dreams\Desktop\training\training\bin\Newtonsoft.Json.dll
+C:\Users\Dreams\Desktop\training\training\bin\Owin.dll
+C:\Users\Dreams\Desktop\training\training\bin\System.Web.Optimization.dll
+C:\Users\Dreams\Desktop\training\training\bin\System.Web.Providers.dll
+C:\Users\Dreams\Desktop\training\training\bin\WebGrease.dll
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.Web.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Dreams\Desktop\training\training\bin\System.Web.Optimization.xml
+C:\Users\Dreams\Desktop\training\training\bin\Antlr3.Runtime.pdb
+C:\Users\Dreams\Desktop\training\training\bin\Newtonsoft.Json.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Dreams\Desktop\training\training\bin\EntityFramework.xml
+C:\Users\Dreams\Desktop\training\training\bin\EntityFramework.SqlServer.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Dreams\Desktop\training\training\bin\System.Web.Providers.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Dreams\Desktop\training\training\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Dreams\Desktop\training\training\obj\Debug\training.csprojAssemblyReference.cache
+C:\Users\Dreams\Desktop\training\training\obj\Debug\training.csproj.CoreCompileInputs.cache
+C:\Users\Dreams\Desktop\training\training\obj\Debug\training.csproj.CopyComplete
+C:\Users\Dreams\Desktop\training\training\obj\Debug\training.dll
+C:\Users\Dreams\Desktop\training\training\obj\Debug\training.pdb
+C:\Users\Dreams\Desktop\training\training\bin\DnsClient.dll
+C:\Users\Dreams\Desktop\training\training\bin\MongoDB.Bson.dll
+C:\Users\Dreams\Desktop\training\training\bin\MongoDB.Driver.Core.dll
+C:\Users\Dreams\Desktop\training\training\bin\MongoDB.Driver.dll
+C:\Users\Dreams\Desktop\training\training\bin\System.Buffers.dll
+C:\Users\Dreams\Desktop\training\training\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Dreams\Desktop\training\training\bin\DnsClient.xml
+C:\Users\Dreams\Desktop\training\training\bin\MongoDB.Bson.xml
+C:\Users\Dreams\Desktop\training\training\bin\MongoDB.Driver.xml
+C:\Users\Dreams\Desktop\training\training\bin\MongoDB.Driver.Core.xml
+C:\training\training\bin\ApplicationInsights.config
+C:\training\training\bin\roslyn\csc.exe
+C:\training\training\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\training\training\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\training\training\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\training\training\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\training\training\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\training\training\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\training\training\bin\roslyn\System.Collections.Immutable.dll
+C:\training\training\bin\roslyn\System.Reflection.Metadata.dll
+C:\training\training\bin\roslyn\vbc.exe
+C:\training\training\bin\roslyn\VBCSCompiler.exe
+C:\training\training\bin\roslyn\VBCSCompiler.exe.config
+C:\training\training\bin\training.dll.config
+C:\training\training\bin\training.dll
+C:\training\training\bin\training.pdb
+C:\training\training\bin\Antlr3.Runtime.dll
+C:\training\training\bin\AspNet.ScriptManager.bootstrap.dll
+C:\training\training\bin\AspNet.ScriptManager.jQuery.dll
+C:\training\training\bin\DnsClient.dll
+C:\training\training\bin\EntityFramework.dll
+C:\training\training\bin\EntityFramework.SqlServer.dll
+C:\training\training\bin\Microsoft.AI.Agent.Intercept.dll
+C:\training\training\bin\Microsoft.AI.DependencyCollector.dll
+C:\training\training\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\training\training\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\training\training\bin\Microsoft.AI.Web.dll
+C:\training\training\bin\Microsoft.AI.WindowsServer.dll
+C:\training\training\bin\Microsoft.ApplicationInsights.dll
+C:\training\training\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\training\training\bin\Microsoft.AspNet.Identity.Core.dll
+C:\training\training\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\training\training\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\training\training\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\training\training\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\training\training\bin\Microsoft.Owin.dll
+C:\training\training\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\training\training\bin\Microsoft.Owin.Security.Cookies.dll
+C:\training\training\bin\Microsoft.Owin.Security.dll
+C:\training\training\bin\Microsoft.Owin.Security.Facebook.dll
+C:\training\training\bin\Microsoft.Owin.Security.Google.dll
+C:\training\training\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\training\training\bin\Microsoft.Owin.Security.OAuth.dll
+C:\training\training\bin\Microsoft.Owin.Security.Twitter.dll
+C:\training\training\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\training\training\bin\Microsoft.ScriptManager.WebForms.dll
+C:\training\training\bin\Microsoft.Web.Infrastructure.dll
+C:\training\training\bin\MongoDB.Bson.dll
+C:\training\training\bin\MongoDB.Driver.Core.dll
+C:\training\training\bin\MongoDB.Driver.dll
+C:\training\training\bin\Newtonsoft.Json.dll
+C:\training\training\bin\Owin.dll
+C:\training\training\bin\System.Buffers.dll
+C:\training\training\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\training\training\bin\System.Web.Optimization.dll
+C:\training\training\bin\System.Web.Providers.dll
+C:\training\training\bin\WebGrease.dll
+C:\training\training\bin\DnsClient.xml
+C:\training\training\bin\Microsoft.AI.DependencyCollector.xml
+C:\training\training\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\training\training\bin\Microsoft.AI.Web.xml
+C:\training\training\bin\Microsoft.AI.WindowsServer.xml
+C:\training\training\bin\Microsoft.ApplicationInsights.xml
+C:\training\training\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\training\training\bin\MongoDB.Bson.xml
+C:\training\training\bin\MongoDB.Driver.xml
+C:\training\training\bin\MongoDB.Driver.Core.xml
+C:\training\training\bin\System.Web.Optimization.xml
+C:\training\training\bin\Antlr3.Runtime.pdb
+C:\training\training\bin\Newtonsoft.Json.xml
+C:\training\training\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\training\training\bin\EntityFramework.xml
+C:\training\training\bin\EntityFramework.SqlServer.xml
+C:\training\training\bin\Microsoft.AspNet.Identity.Core.xml
+C:\training\training\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\training\training\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\training\training\bin\System.Web.Providers.xml
+C:\training\training\bin\Microsoft.Owin.xml
+C:\training\training\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\training\training\bin\Microsoft.Owin.Security.xml
+C:\training\training\bin\Microsoft.Owin.Security.Facebook.xml
+C:\training\training\bin\Microsoft.Owin.Security.Cookies.xml
+C:\training\training\bin\Microsoft.Owin.Security.Google.xml
+C:\training\training\bin\Microsoft.Owin.Security.Twitter.xml
+C:\training\training\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\training\training\bin\Microsoft.Owin.Security.OAuth.xml
+C:\training\training\obj\Debug\training.csprojResolveAssemblyReference.cache
+C:\training\training\obj\Debug\training.dll
+C:\training\training\obj\Debug\training.pdb
