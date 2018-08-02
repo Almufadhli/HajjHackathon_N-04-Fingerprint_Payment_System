@@ -166,6 +166,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_new_phone;
         
         /// <summary>
+        /// fingerPrint control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload fingerPrint;
+        
+        /// <summary>
         /// registerBtn control.
         /// </summary>
         /// <remarks>
@@ -175,12 +184,75 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.Button registerBtn;
         
         /// <summary>
-        /// Button1 control.
+        /// txt_edit_fullName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.TextBox txt_edit_fullName;
+        
+        /// <summary>
+        /// txt_edit_pilgrimId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_edit_pilgrimId;
+        
+        /// <summary>
+        /// txt_edit_userId control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_edit_userId;
+        
+        /// <summary>
+        /// txt_edit_nationality control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_edit_nationality;
+        
+        /// <summary>
+        /// txt_edit_residency control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_edit_residency;
+        
+        /// <summary>
+        /// txt_edit_credit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_edit_credit;
+        
+        /// <summary>
+        /// txt_edit_phone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_edit_phone;
+        
+        /// <summary>
+        /// editPilgrimInfo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button editPilgrimInfo;
     }
 }

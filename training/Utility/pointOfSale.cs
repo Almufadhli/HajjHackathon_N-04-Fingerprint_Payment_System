@@ -14,15 +14,17 @@ namespace training.Utility
         public string email { get; set; }
         public string title { get; set; }
         public string level { get; set; }
-
         public List<transactions> history { get; set; }
 
-        public pointOfSale(string sellerId, string pass, string email)
+        public string bankAccount { get; set; }
+
+        public pointOfSale(string sellerId, string pass, string email, string bankAccount)
         {
             _id = new ObjectId();
             this.sellerId = sellerId;
             this.pass = pass;
             this.email = email;
+            this.bankAccount = bankAccount;
             this.history = null;
         }
 
@@ -35,6 +37,7 @@ namespace training.Utility
                 { "sellerId", sellerId },
                 { "pass", pass },
                 { "email", email },
+                { "bankAccount", bankAccount },
                 { "history", hist },
             };
 

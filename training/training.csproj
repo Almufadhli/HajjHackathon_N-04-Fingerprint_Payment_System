@@ -332,7 +332,7 @@
     </Compile>
     <Compile Include="Utility\crud.cs" />
     <Compile Include="Utility\DBConnection.cs" />
-    <Compile Include="Utility\Hajj.cs" />
+    <Compile Include="Utility\Pilgrim.cs" />
     <Compile Include="Utility\pointOfSale.cs" />
     <Compile Include="Utility\transactions.cs" />
     <Compile Include="ViewSwitcher.ascx.cs">

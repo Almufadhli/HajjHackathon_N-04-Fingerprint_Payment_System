@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -6,11 +7,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using training.Utility;
 
 namespace training.Pages
 {
     public partial class Seller : System.Web.UI.Page
     {
+        crud operations = new crud();
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -18,21 +22,38 @@ namespace training.Pages
 
         protected void buttonUpload_Click(object sender, EventArgs e)
         {
-            if (FileUpload1.HasFile && fileupload2.HasFile)
-            {
+            //if (FileUpload1.HasFile && fileupload2.HasFile)
+            //{
 
-                Bitmap firstImage = new Bitmap(FileUpload1.PostedFile.InputStream);
+            //    Bitmap firstImage = new Bitmap(FileUpload1.PostedFile.InputStream);
+            //    Bitmap secondImage = new Bitmap(fileupload2.PostedFile.InputStream);
+            //    byte[] firstData;
+
+            //    using (MemoryStream stream = new MemoryStream())
+            //    {
+            //        firstImage.Save(stream, System.Drawing.Imaging.ImageFormat.Png);
+            //        firstData = stream.ToArray();
+            //    }
+
+            //    byte[] secondData;
+
+            //    using (MemoryStream stream = new MemoryStream())
+            //    {
+            //        secondImage.Save(stream, System.Drawing.Imaging.ImageFormat.Png);
+            //        secondData = stream.ToArray();
+            //    }
+
+                //bool test = compareBinaryImages(firstData, secondData);
 
 
 
-                Bitmap secondImage = new Bitmap(fileupload2.PostedFile.InputStream);
 
-                string test = compareImages(firstImage, secondImage);
-                double percentage = compareImagesPercents(firstImage, secondImage);
-                label1.Text = test.ToString();
-                label2.Text = "They match by: " + percentage.ToString() + "%" ;
+                //string test = compareImages(firstImage, secondImage);
+                //double percentage = compareImagesPercents(firstImage, secondImage);
+                //label1.Text = test.ToString();
+                //label2.Text = "They match by: " + percentage.ToString() + "%";
 
-            }
+            //}
 
         }
 
@@ -98,5 +119,50 @@ namespace training.Pages
             }
             return (Identical_pixels / size) * 100;
         }
+
+        protected void transfer_Click(object sender, EventArgs e)
+        {
+            string sellerId = Session["sellerId"].ToString();
+            Bitmap uploadedFPImage = new Bitmap(FPFU.PostedFile.InputStream);
+
+            byte[] data;
+            using (MemoryStream stream = new MemoryStream())
+            {
+                uploadedFPImage.Save(stream, System.Drawing.Imaging.ImageFormat.Png);
+                data = stream.ToArray();
+            }
+
+
+            BsonDocument doc = operations.findByFingerprint(data);
+            if (doc != null)
+            {
+                double transferAmount = Convert.ToDouble(Cost_txtbox.Text);
+                operations.newTransaction(sellerId, doc["pilgrimId"].AsString, transferAmount);
+
+
+                testCompare.Text = "Transaction completed successfully";
+            }
+            else
+            {
+                testCompare.Text = "There is no pilgrim with this fingerprint!";
+            }
+
+
+        }
+
+
+        public bool compareBinaryImages(BsonBinaryData uploadedFP, BsonBinaryData pilgrimFP)
+        {
+            if (uploadedFP.Equals(pilgrimFP))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
     }
 }

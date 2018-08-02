@@ -70,14 +70,14 @@
 
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                   <%-- <p>ابحث</p>--%>
+                    <%-- <p>ابحث</p>--%>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <asp:TextBox runat="server" ID="txt_search_pilgrim"></asp:TextBox> 
-                    <asp:LinkButton ID="search" Text="ابحث" runat="server" OnClick="search_Click" ></asp:LinkButton>
+                    <asp:TextBox runat="server" ID="txt_search_pilgrim"></asp:TextBox>
+                    <asp:LinkButton ID="search" Text="ابحث" runat="server" OnClick="search_Click"></asp:LinkButton>
                 </div>
             </div>
 
@@ -102,7 +102,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-two">
-                        <asp:Label id="fullName" runat="server"></asp:Label>
+                        <asp:Label ID="fullName" runat="server"></asp:Label>
                     </div>
                 </div>
 
@@ -112,7 +112,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-two">
-                        <asp:Label id="pilgrimId" runat="server"></asp:Label>
+                        <asp:Label ID="pilgrimId" runat="server"></asp:Label>
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-two">
-                        <asp:Label id="userId" runat="server"></asp:Label>
+                        <asp:Label ID="userId" runat="server"></asp:Label>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-two">
-                        <asp:Label id="nationality" runat="server"></asp:Label>
+                        <asp:Label ID="nationality" runat="server"></asp:Label>
                     </div>
                 </div>
 
@@ -142,7 +142,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-two">
-                        <asp:Label id="residency" runat="server"></asp:Label>
+                        <asp:Label ID="residency" runat="server"></asp:Label>
                     </div>
                 </div>
 
@@ -152,7 +152,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-two">
-                        <asp:Label id="credit" runat="server"></asp:Label>
+                        <asp:Label ID="credit" runat="server"></asp:Label>
                     </div>
                 </div>
 
@@ -162,7 +162,7 @@
                     </div>
 
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-two">
-                        <asp:Label id="phone" runat="server"></asp:Label>
+                        <asp:Label ID="phone" runat="server"></asp:Label>
                     </div>
                 </div>
             </div>
@@ -290,14 +290,19 @@
                         <asp:TextBox ID="txt_new_phone" runat="server"></asp:TextBox>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <asp:FileUpload ID="fingerPrint" runat="server" />
+                    </div>
+                </div>
 
                 <br />
 
-                <asp:Button runat="server" Text="تسجيل مستخدم جديد" ID="registerBtn" OnClick="registerBtn_Click" CssClass="btn btn-success"/>
+                <asp:Button runat="server" Text="تسجيل مستخدم جديد" ID="registerBtn" OnClick="registerBtn_Click" CssClass="btn btn-success" />
             </div>
         </div>
 
-          <div id="EditContainer">
+        <div id="EditContainer">
             <br />
 
             <h2>تعديل البيانات الشخصية</h2>
@@ -311,7 +316,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <asp:TextBox runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txt_edit_fullName" runat="server"></asp:TextBox>
                     </div>
                 </div>
 
@@ -323,7 +328,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <asp:TextBox runat="server" Enabled="false"></asp:TextBox>
+                        <asp:TextBox ID="txt_edit_pilgrimId" runat="server" Enabled="false"></asp:TextBox>
                     </div>
                 </div>
 
@@ -335,7 +340,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <asp:TextBox runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txt_edit_userId" runat="server"></asp:TextBox>
                     </div>
                 </div>
 
@@ -347,7 +352,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <asp:TextBox runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txt_edit_nationality" runat="server"></asp:TextBox>
                     </div>
                 </div>
 
@@ -359,7 +364,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <asp:TextBox runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txt_edit_residency" runat="server"></asp:TextBox>
                     </div>
                 </div>
 
@@ -371,7 +376,7 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <asp:TextBox runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txt_edit_credit" runat="server"></asp:TextBox>
                     </div>
                 </div>
 
@@ -383,13 +388,14 @@
 
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <asp:TextBox runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txt_edit_phone" runat="server"></asp:TextBox>
                     </div>
                 </div>
 
+
                 <br />
 
-                <asp:Button runat="server" Text="تعديل بيانات المستخدم" ID="Button1" CssClass="btn btn-success"/>
+                <asp:Button runat="server" Text="تعديل بيانات المستخدم" ID="editPilgrimInfo" OnClick="editPilgrimInfo_Click" PostBackUrl="~/Pages/Admin.aspx" CssClass="btn btn-success" />
             </div>
         </div>
     </div>

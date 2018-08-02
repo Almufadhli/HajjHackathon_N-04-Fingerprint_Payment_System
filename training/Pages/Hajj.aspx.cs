@@ -11,6 +11,7 @@ namespace training.Pages
 {
     public partial class Hajj : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -34,8 +35,8 @@ namespace training.Pages
             if (document.ElementCount > 0)
             {
 
-                int existingCredit = document["HCredit"].ToInt32();
-                int newCredit = existingCredit + Convert.ToInt32(Money_txtbox.Text);
+                double existingCredit = document["HCredit"].ToDouble();
+                double newCredit = existingCredit + Convert.ToDouble(Money_txtbox.Text);
 
                 var update = Builders<BsonDocument>.Update.Set("HCredit", newCredit);
 
