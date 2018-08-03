@@ -5,14 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace training
+namespace training.Pages
 {
-    public partial class _Default : Page
+    public partial class Main : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Session["test1"] = "123456";
-            Response.Redirect("Pages/Home.aspx");
+
         }
     }
 }

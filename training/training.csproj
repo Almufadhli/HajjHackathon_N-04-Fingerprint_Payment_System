@@ -217,6 +217,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Pages\Admin.aspx" />
     <Content Include="Pages\Hajj.aspx" />
+    <Content Include="Pages\Home.aspx" />
     <Content Include="Pages\LogIn.aspx" />
     <Content Include="Pages\Seller.aspx" />
     <Content Include="Scripts\ai.0.22.9-build00167.js" />
@@ -297,6 +298,13 @@
     </Compile>
     <Compile Include="Pages\Hajj.aspx.designer.cs">
       <DependentUpon>Hajj.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\LogIn.aspx.cs">
       <DependentUpon>LogIn.aspx</DependentUpon>
