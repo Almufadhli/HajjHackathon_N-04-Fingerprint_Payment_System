@@ -200,6 +200,9 @@
                         <asp:TextBox runat="server" ID="Money_txtbox" meta:resourcekey="Money_txtboxResource1" />
                     </div>
                 </div>
+                <div class="row">
+                    <asp:Label ID="depositResult" runat="server" text=""  ></asp:Label>
+                </div>
 
                 <asp:Button Text="Send" runat="server" CssClass="btn btn-success btn_margin" OnClick="btn_send_money_Click" meta:resourcekey="ButtonResource2" />
             </div>

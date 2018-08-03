@@ -12,7 +12,7 @@ namespace training.Utility
         public string sellerId { get; set; }
         public string costumerId { get; set; }
         public DateTime transactionDate { get; set; }
-        public double amount { get; set; }
+        public  double amount { get; set; }
         public string status { get; set; }
 
 
@@ -30,6 +30,8 @@ namespace training.Utility
             this.amount = amount;
             this.status = status;
         }
+
+
 
         public BsonDocument getBsonDoc()
         {

@@ -5,6 +5,7 @@
         #System_summary {
             background-image: url('../../images/SS_background.png');
             background-position: top center;
+            width: 100%;
             height: 699px;
             position: relative;
             text-align:center;
@@ -30,14 +31,26 @@
 
         #System_plan {
             background-image: url('../../images/System_plan.png');
+            background-size:contain;
+            background-clip:content-box;
+            background-repeat: no-repeat;
+            margin: auto;
         }
 
         #HowTo {
             background-image: url('../../images/start_system.png');
+            background-size:contain;
+            background-clip:content-box;
+            background-repeat: no-repeat;
+            margin: auto;
         }
 
         #System_features {
             background-image: url('../../images/System_features.png');
+            background-clip:content-box;
+            background-repeat: no-repeat;
+            background-size:contain;
+            margin: auto;
         }
 
         .center {
@@ -80,13 +93,13 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="System_summary">
-        <img src="../Images/logo.png"/ />
+        <img src="../Images/logo.png"/ Style="padding-top: 20px;"/>s
 
         <div id="particles-js"></div>
         <div id="SS_background"></div>
     </div>
 
-    <div id="System_plan" style="height: 869px; background-color: #888; position: relative; z-index: 3;"></div>
+    <div id="System_plan" style="height: auto; background-color: #888; position: relative; z-index: 3;"></div>
 
     <div id="HowTo" style="height: 541px; background-color: white;"></div>
 

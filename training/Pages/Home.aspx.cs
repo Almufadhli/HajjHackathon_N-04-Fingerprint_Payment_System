@@ -16,12 +16,12 @@ namespace training.Pages
 
         protected void btn_go_to_Hajj_page_Click(object sender, EventArgs e)
         {
-            Response.Redirect("");
+            Response.Redirect("hajj.aspx");
         }
 
         protected void btn_login_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("hajj.aspx");
         }
     }
 }
