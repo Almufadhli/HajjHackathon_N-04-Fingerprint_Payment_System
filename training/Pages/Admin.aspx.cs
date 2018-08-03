@@ -16,10 +16,36 @@ namespace training.Pages
     {
 
         crud operations = new crud();
+        bool overridePageLoad = false;
 
-        protected void Page_Load(object sender, EventArgs e)
+       protected void Page_Load(object sender, EventArgs e)
         {
+                SearchContainer.Visible = false;
+                AddContainer.Visible = false;
+                EditContainer.Visible = false;
+                searchResult.Visible = false;
 
+        }
+
+        public void btn_search_Click(object sender, EventArgs e)
+        {
+            SearchContainer.Visible = true;
+            AddContainer.Visible = false;
+            EditContainer.Visible = false;
+        }
+
+        public void btn_add_Click(object sender, EventArgs e)
+        {
+            SearchContainer.Visible = false;
+            AddContainer.Visible = true;
+            EditContainer.Visible = false;
+        }
+
+        public void btn_edit_Click(object sender, EventArgs e)
+        {
+            SearchContainer.Visible = false;
+            AddContainer.Visible = false;
+            EditContainer.Visible = true;
         }
 
         protected void search_Click(object sender, EventArgs e)
@@ -31,6 +57,8 @@ namespace training.Pages
             //var pilgrimColl = database.GetCollection<BsonDocument>("Pilgrim");
             //var filter = Builders<BsonDocument>.Filter.Eq("pilgrimId", pId);
             //var document = pilgrimColl.Find(filter).First();
+
+            overridePageLoad = true;
 
             BsonDocument document = operations.findPilgrim(pId);
 
@@ -45,6 +73,34 @@ namespace training.Pages
                 phone.Text = document["phone"].AsString;
 
                 Session["adminPilgrimID"] = pilgrimId.Text;
+
+                // get transactions
+
+                List<transactions> tr = operations.getTransactions(pId);
+
+                if (tr != null)
+                {
+                    gvTransactions.DataSource = tr;
+                    gvTransactions.DataBind();
+                }
+                else
+                {
+                    Label lb = new Label();
+                    lb.Text = "There are no transactions for this pilgrim";
+                    noTransactions.Controls.Add(lb);
+                }
+
+                //if (tr != null)
+                //{
+                //    foreach (var item in tr)
+                //    {
+
+                //    }
+                //}
+                //else
+                //{
+                //    // no transactions
+                //}
 
 
 
@@ -124,5 +180,7 @@ namespace training.Pages
             
 
         }
+
+        
     }
 }

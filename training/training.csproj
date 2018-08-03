@@ -211,8 +211,10 @@
     </Content>
     <Content Include="fonts\DroidKufi-Bold.ttf" />
     <Content Include="fonts\DroidKufi-Regular.ttf" />
+    <Content Include="fonts\Roboto-Bold.ttf" />
+    <Content Include="fonts\Roboto-Medium.ttf" />
+    <Content Include="fonts\Kanit-Regular.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="images\crime-2027374_960_720.png" />
     <Content Include="Pages\Admin.aspx" />
     <Content Include="Pages\Hajj.aspx" />
     <Content Include="Pages\LogIn.aspx" />
@@ -345,6 +347,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages\App_LocalResources\Admin.aspx.ar.resx" />
+    <Content Include="Pages\App_LocalResources\Admin.aspx.resx" />
+    <Content Include="Pages\App_LocalResources\Hajj.aspx.ar.resx" />
+    <Content Include="Pages\App_LocalResources\Hajj.aspx.resx" />
+    <Content Include="Pages\App_LocalResources\LogIn.aspx.ar.resx" />
+    <Content Include="Pages\App_LocalResources\LogIn.aspx.resx" />
+    <Content Include="Pages\App_LocalResources\Seller.aspx.ar.resx" />
+    <Content Include="Pages\App_LocalResources\Seller.aspx.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

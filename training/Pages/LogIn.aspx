@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="training.Pages.LogIn" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LogIn.aspx.cs" Inherits="training.Pages.LogIn"  Culture="auto" meta:resourcekey="PageResource1" UICulture="auto"%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
@@ -69,7 +69,7 @@
 
 
         
-        <div id="pilgrimLogin">
+<%--        <div id="pilgrimLogin">
              <div class ="Row">
                 <div class ="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <p runat="server" id="PID">رقم الحاج</p>
@@ -86,34 +86,35 @@
                     <asp:Button runat="server" Text="تسجيل الدخول" CssClass="btn btn-success btn_margin" OnClick="pilgrimRedirect"/>
                 </div>
             </div>
-        </div>
+        </div>--%>
 
         <div id="adminLogin">
              <div class ="Row">
                 <div class ="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p runat="server" id="user">اسم المستخدم</p>
+                    <p runat="server" id="user"> <asp:Localize runat="server" Text="User Name" meta:resourcekey="user" /></p>
                 </div>
             </div>
             <div class="row">
                 <div class ="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <asp:TextBox runat="server" ID="user_txt" CssClass="login_textbox"></asp:TextBox>
+                    <asp:TextBox runat="server" ID="user_txt" CssClass="login_textbox" meta:resourcekey="user_txtResource1" Required="true"></asp:TextBox>
                 </div>
             </div>
 
              <div class ="Row">
                 <div class ="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p runat="server" id="password">الرمز السري</p>
+                   <p runat="server" id="password">
+                        <asp:Localize runat="server" Text="Password" meta:resourcekey="password" /></p>
                 </div>
             </div>
             <div class="row">
                 <div class ="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <asp:TextBox runat="server" ID="password_txt" CssClass="login_textbox"></asp:TextBox>
+                    <asp:TextBox runat="server" ID="password_txt" CssClass="login_textbox" meta:resourcekey="password_txtResource1" Required="true"></asp:TextBox>
                 </div>
             </div>
 
             <div class="row">
                 <div class ="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <asp:Button runat="server" Text="تسجيل الدخول" CssClass="btn btn-success btn_margin" OnClick="adminRedirect"/>
+                    <asp:Button runat="server" Text="تسجيل الدخول" CssClass="btn btn-success btn_margin" OnClick="adminRedirect"  meta:resourcekey="ButtonResource2"/>
                 </div>
             </div>
         </div>

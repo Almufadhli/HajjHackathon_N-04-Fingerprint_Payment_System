@@ -122,6 +122,29 @@ namespace training.Utility
 
         }
 
+        public List<transactions> getTransactions(string pilgrimID)
+        {
+            BsonDocument pilgrim = findPilgrim(pilgrimID);
+
+            if (pilgrim != null)
+            {
+                var client = new MongoClient("mongodb://localhost:27017");
+                var database = client.GetDatabase("hajjhackathon");
+                var transColl = database.GetCollection<transactions>("Transactions");
+
+                var filter = Builders<transactions>.Filter.Eq("costumerId", pilgrimID);
+
+                List<transactions> tr = transColl.Find(filter).ToList<transactions>();
+                return tr;
+
+            }
+            else
+            {
+                return null;
+            }
+
+        }
+
 
 
     }

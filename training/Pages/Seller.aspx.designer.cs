@@ -13,6 +13,15 @@ namespace training.Pages {
     public partial class Seller {
         
         /// <summary>
+        /// Cost_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Cost_txt;
+        
+        /// <summary>
         /// Cost_txtbox control.
         /// </summary>
         /// <remarks>
@@ -20,6 +29,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Cost_txtbox;
+        
+        /// <summary>
+        /// FPFU_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize FPFU_txt;
         
         /// <summary>
         /// FPFU control.

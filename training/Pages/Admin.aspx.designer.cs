@@ -13,6 +13,51 @@ namespace training.Pages {
     public partial class Admin {
         
         /// <summary>
+        /// btn_search control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_search;
+        
+        /// <summary>
+        /// btn_add control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_add;
+        
+        /// <summary>
+        /// btn_edit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_edit;
+        
+        /// <summary>
+        /// SearchContainer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl SearchContainer;
+        
+        /// <summary>
+        /// Search_title control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Search_title;
+        
+        /// <summary>
         /// txt_search_pilgrim control.
         /// </summary>
         /// <remarks>
@@ -40,6 +85,24 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.Label searchResult;
         
         /// <summary>
+        /// Error_msg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Error_msg;
+        
+        /// <summary>
+        /// Name_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Name_txt;
+        
+        /// <summary>
         /// fullName control.
         /// </summary>
         /// <remarks>
@@ -47,6 +110,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label fullName;
+        
+        /// <summary>
+        /// PID_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize PID_txt;
         
         /// <summary>
         /// pilgrimId control.
@@ -58,6 +130,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.Label pilgrimId;
         
         /// <summary>
+        /// User_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize User_txt;
+        
+        /// <summary>
         /// userId control.
         /// </summary>
         /// <remarks>
@@ -65,6 +146,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label userId;
+        
+        /// <summary>
+        /// Nat_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Nat_txt;
         
         /// <summary>
         /// nationality control.
@@ -76,6 +166,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.Label nationality;
         
         /// <summary>
+        /// Res_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Res_txt;
+        
+        /// <summary>
         /// residency control.
         /// </summary>
         /// <remarks>
@@ -83,6 +182,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label residency;
+        
+        /// <summary>
+        /// Credit_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Credit_txt;
         
         /// <summary>
         /// credit control.
@@ -94,6 +202,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.Label credit;
         
         /// <summary>
+        /// Phone_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Phone_txt;
+        
+        /// <summary>
         /// phone control.
         /// </summary>
         /// <remarks>
@@ -101,6 +218,60 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label phone;
+        
+        /// <summary>
+        /// Info_title control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Info_title;
+        
+        /// <summary>
+        /// noTransactions control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder noTransactions;
+        
+        /// <summary>
+        /// gvTransactions control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvTransactions;
+        
+        /// <summary>
+        /// AddContainer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl AddContainer;
+        
+        /// <summary>
+        /// Info_title2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Info_title2;
+        
+        /// <summary>
+        /// Name2_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Name2_txt;
         
         /// <summary>
         /// txt_new_fullName control.
@@ -112,6 +283,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_new_fullName;
         
         /// <summary>
+        /// PID2_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize PID2_txt;
+        
+        /// <summary>
         /// txt_new_pilgrimId control.
         /// </summary>
         /// <remarks>
@@ -119,6 +299,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_new_pilgrimId;
+        
+        /// <summary>
+        /// User2_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize User2_txt;
         
         /// <summary>
         /// txt_new_userId control.
@@ -130,6 +319,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_new_userId;
         
         /// <summary>
+        /// Nat2_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Nat2_txt;
+        
+        /// <summary>
         /// txt_new_nationality control.
         /// </summary>
         /// <remarks>
@@ -137,6 +335,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_new_nationality;
+        
+        /// <summary>
+        /// Ras2_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Ras2_txt;
         
         /// <summary>
         /// txt_new_residency control.
@@ -148,6 +355,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_new_residency;
         
         /// <summary>
+        /// Credit2_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Credit2_txt;
+        
+        /// <summary>
         /// txt_new_credit control.
         /// </summary>
         /// <remarks>
@@ -157,6 +373,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_new_credit;
         
         /// <summary>
+        /// Phone2_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Phone2_txt;
+        
+        /// <summary>
         /// txt_new_phone control.
         /// </summary>
         /// <remarks>
@@ -164,6 +389,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_new_phone;
+        
+        /// <summary>
+        /// Fingerprint_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Fingerprint_txt;
         
         /// <summary>
         /// fingerPrint control.
@@ -184,6 +418,33 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.Button registerBtn;
         
         /// <summary>
+        /// EditContainer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl EditContainer;
+        
+        /// <summary>
+        /// Edit_title control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Edit_title;
+        
+        /// <summary>
+        /// Name3_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Name3_txt;
+        
+        /// <summary>
         /// txt_edit_fullName control.
         /// </summary>
         /// <remarks>
@@ -191,6 +452,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_edit_fullName;
+        
+        /// <summary>
+        /// PID3_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize PID3_txt;
         
         /// <summary>
         /// txt_edit_pilgrimId control.
@@ -202,6 +472,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_edit_pilgrimId;
         
         /// <summary>
+        /// User3_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize User3_txt;
+        
+        /// <summary>
         /// txt_edit_userId control.
         /// </summary>
         /// <remarks>
@@ -209,6 +488,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_edit_userId;
+        
+        /// <summary>
+        /// Nat3_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Nat3_txt;
         
         /// <summary>
         /// txt_edit_nationality control.
@@ -220,6 +508,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_edit_nationality;
         
         /// <summary>
+        /// Ras3_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Ras3_txt;
+        
+        /// <summary>
         /// txt_edit_residency control.
         /// </summary>
         /// <remarks>
@@ -229,6 +526,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox txt_edit_residency;
         
         /// <summary>
+        /// Credit4_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Credit4_txt;
+        
+        /// <summary>
         /// txt_edit_credit control.
         /// </summary>
         /// <remarks>
@@ -236,6 +542,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txt_edit_credit;
+        
+        /// <summary>
+        /// Localize1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Localize1;
         
         /// <summary>
         /// txt_edit_phone control.

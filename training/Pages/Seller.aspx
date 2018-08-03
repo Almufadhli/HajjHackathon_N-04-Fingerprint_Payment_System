@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Seller.aspx.cs" Inherits="training.Pages.Seller" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Seller.aspx.cs" Inherits="training.Pages.Seller"  Culture="auto" meta:resourcekey="PageResource1" UICulture="auto" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
@@ -15,12 +15,12 @@
 
             <div class="Row">
                 <div class="col-lg-12 col-md-12 col-sm-2 col-xs-12">
-                    <label>Bill Cost</label>
+                    <label><asp:Localize runat="server" ID="Cost_txt" Text="ثمن الفتورة" meta:resourcekey="Cost_txt" /></label>
                 </div>
             </div>
             <div class="Row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <asp:TextBox runat="server" ID="Cost_txtbox" />
+                    <asp:TextBox runat="server" ID="Cost_txtbox" meta:resourcekey="Cost_txtboxResource1"/>
                 </div>
             </div>
 
@@ -28,13 +28,13 @@
 
             <div class="Row">
                 <div class="col-lg-12 col-md-12 col-sm-2 col-xs-12">
-                    <label class="float:left;">Upload Fingerprint</label>
-                    <asp:FileUpload runat="server" ID="FPFU" CssClass="float_right" />
+                    <label class="float:left;"><asp:Localize runat="server" ID="FPFU_txt" Text="صورة من البصمة" meta:resourcekey="FPFU_txt" /></label>
+                    <asp:FileUpload runat="server" ID="FPFU" CssClass="float_right" meta:resourcekey="FPFUResource1"/>
                 </div>
             </div>
 
-            <asp:Button Text="Submit" ID="transfer" runat="server" OnClick="transfer_Click" />
-            <asp:Label ID="testCompare" runat="server" ></asp:Label>
+            <asp:Button Text="Submit" ID="transfer" runat="server" OnClick="transfer_Click" meta:resourcekey="transferButton" />
+            <asp:Label ID="testCompare" runat="server" meta:resourcekey="testCompareResource1" ></asp:Label>
             <%--<div class="Row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <asp:FileUpload runat="server" ID="FileUpload1" />

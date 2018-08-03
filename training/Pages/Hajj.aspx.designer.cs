@@ -13,6 +13,24 @@ namespace training.Pages {
     public partial class Hajj {
         
         /// <summary>
+        /// Method_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Method_txt;
+        
+        /// <summary>
+        /// Card_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Card_txt;
+        
+        /// <summary>
         /// Card_Type control.
         /// </summary>
         /// <remarks>
@@ -22,6 +40,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.DropDownList Card_Type;
         
         /// <summary>
+        /// Number_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Number_txt;
+        
+        /// <summary>
         /// Code_No control.
         /// </summary>
         /// <remarks>
@@ -29,6 +56,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Code_No;
+        
+        /// <summary>
+        /// Expiration_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Expiration_txt;
         
         /// <summary>
         /// month control.
@@ -58,6 +94,24 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox Sec_Code;
         
         /// <summary>
+        /// Information_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Information_txt;
+        
+        /// <summary>
+        /// Name_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Name_txt;
+        
+        /// <summary>
         /// Name_txtbox control.
         /// </summary>
         /// <remarks>
@@ -65,6 +119,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Name_txtbox;
+        
+        /// <summary>
+        /// City_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize City_txt;
         
         /// <summary>
         /// City_txtbox control.
@@ -76,6 +139,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox City_txtbox;
         
         /// <summary>
+        /// Address_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Address_txt;
+        
+        /// <summary>
         /// Address_txtbox control.
         /// </summary>
         /// <remarks>
@@ -83,6 +155,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Address_txtbox;
+        
+        /// <summary>
+        /// Zip_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Zip_txt;
         
         /// <summary>
         /// Zip_txtbox control.
@@ -94,6 +175,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox Zip_txtbox;
         
         /// <summary>
+        /// Currency_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Currency_txt;
+        
+        /// <summary>
         /// Currency_txtbox control.
         /// </summary>
         /// <remarks>
@@ -101,6 +191,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Currency_txtbox;
+        
+        /// <summary>
+        /// Phone_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Phone_txt;
         
         /// <summary>
         /// Phone_txtbox control.
@@ -112,6 +211,15 @@ namespace training.Pages {
         protected global::System.Web.UI.WebControls.TextBox Phone_txtbox;
         
         /// <summary>
+        /// ID_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize ID_txt;
+        
+        /// <summary>
         /// PID_txtbox control.
         /// </summary>
         /// <remarks>
@@ -119,6 +227,15 @@ namespace training.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox PID_txtbox;
+        
+        /// <summary>
+        /// Money_txt control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Localize Money_txt;
         
         /// <summary>
         /// Money_txtbox control.

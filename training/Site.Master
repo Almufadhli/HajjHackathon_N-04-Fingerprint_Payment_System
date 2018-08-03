@@ -28,53 +28,24 @@
     <form id="form1" runat="server">
         <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
-        <div id="header" style="height: 50px; background-color: rgba(0, 255, 120, 1); text-align: center;">
+        <div id="header" style="height: 50px; background-color: rgba(0, 255, 120, 1); text-align: center; position: fixed; top:0; left:0; width:100%; z-index: 10;">
             <h2 style="margin: 0px;">العنوان</h2>
 
             <div style="width: 20%; height: 50px; float: left; position: absolute; left: 0px; top: 0px;">
-                <asp:Button runat="server" CssClass="float_left" Text="AR" />
+<%--                <asp:Button runat="server" CssClass="float_left" Text="AR" />--%>
             </div>
         </div>
+         
+        <br />
+        <br />
 
-        <%--<br />
-        <div class="navbar navbar-inverse " style="    background-color: #333 !important;">
-          
-            <div class="container" style="padding-right:0px !important;">
-                 
-                <div  >
-                   
-                         
-                          <div class="mnu sysName"  >نظام جديد </div>
-
-                      <div class="mnu">
-                               <asp:LinkButton ID="lBtn_inbox" runat="server" class="MenuItem" OnClick="lBtn_inbox_Click" Text="الوارد" CausesValidation="false" ></asp:LinkButton>
-
-
-                    </div>
-                    
-                      <div class="mnu">
-                               <asp:LinkButton ID="lBtn_outbox" runat="server" class="MenuItem" OnClick="lBtn_outbox_Click" Text="الصادر" CausesValidation="false" ></asp:LinkButton>
-
-
-                    </div>
-                    
-                
-
-                     
-                  
-                                
-                </div>
-            </div>
-        </div>
-             <div class="container" style="max-width: none;width: 98%;">
-            <div class="ContentDiv" style="box-shadow:1px 1px 1px 1px #888888;padding: 10px;">
-        --%>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
-        <%--                </div>
-            <hr style="color:green;" />
-        --%>
-        <%--</div>--%>
+
+<%--        <div id="footer" style="height: 50px; background-color: #b6ff00; position: fixed; bottom:0; left:0; width:100%;">
+
+        </div>--%>
+    
     </form>
 </body>
 </html>

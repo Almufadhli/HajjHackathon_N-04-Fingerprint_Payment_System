@@ -13,24 +13,6 @@ namespace training.Pages {
     public partial class LogIn {
         
         /// <summary>
-        /// PID control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl PID;
-        
-        /// <summary>
-        /// PID_txt control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PID_txt;
-        
-        /// <summary>
         /// user control.
         /// </summary>
         /// <remarks>

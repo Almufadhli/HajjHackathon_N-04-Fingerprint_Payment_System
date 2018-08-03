@@ -144,7 +144,7 @@ namespace training.Pages
             var database = client.GetDatabase("hajjhackathon");
 
             var pilgrimColl = database.GetCollection<BsonDocument>("Pilgrim");
-            string pilgrimId = PID_txt.Text;
+            //string pilgrimId = PID_txt.Text;
 
             //pilgrimColl.
 
@@ -154,13 +154,13 @@ namespace training.Pages
             //BsonDocument test = new BsonDocument();
             
 
-            var filter = Builders<BsonDocument>.Filter.Eq("pilgrimId", pilgrimId);
+            //var filter = Builders<BsonDocument>.Filter.Eq("pilgrimId", pilgrimId);
             
 
             //var document = pilgrimColl.Find(new BsonDocument()).FirstOrDefault();
             //Console.WriteLine(document.ToString());
 
-            var document = pilgrimColl.Find(filter).First();
+            //var document = pilgrimColl.Find(filter).First();
             //Console.WriteLine(document);
 
             // this prints all docus in the collection
@@ -169,15 +169,15 @@ namespace training.Pages
             //var document = pilgrimColl.Find(filter).First<BsonDocument>();
 
 
-            if (document.ElementCount > 0)
-            {
-                Session["pilgrimID"] = pilgrimId;
-                Response.Redirect("Hajj.aspx");
-            }
-            else
-            {
-                Response.Redirect("login.aspx");
-            }
+            //if (document.ElementCount > 0)
+            //{
+            //    //Session["pilgrimID"] = pilgrimId;
+            //    Response.Redirect("Hajj.aspx");
+            //}
+            //else
+            //{
+            //    Response.Redirect("login.aspx");
+            //}
             //Console.WriteLine(document);
 
 
